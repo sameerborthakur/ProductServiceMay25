@@ -16,7 +16,7 @@ public class SampleController
 		StringBuilder response = new StringBuilder();
 		for (int i = 0; i < numberOfTimes; i++)
 		{
-			response.append("Hello ").append(name).append("! ").append("<br>");
+			response.append("Hello ").append(name).append("!!!! ").append("<br>");
 		}
 		return response.toString();
 	}
